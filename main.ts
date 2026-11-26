@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const REPLY =
-  "I'm away until Monday, and honestly, the 400 unread emails piling up are the main reason I'm dreading coming back — thank you for your patience.";
+  "I'm away until Monday, and honestly, I'm dreading the 400 unread emails waiting for me — thank you for your patience, and please don't add to the pile unless it's urgent.";
 
 // The sealed gate requires 1-200 characters of non-whitespace UTF-8 text.
 // Fail loudly instead of ever writing an invalid entry.
